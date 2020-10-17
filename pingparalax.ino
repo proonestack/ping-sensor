@@ -67,7 +67,7 @@ void loop() {
   Serial1.println("*");//sensor ping depan 
   Serial1.print(sonar1.ping_cm()); 
   //Serial.print(" cm");
-  //delay(10);
+  delay(10);
   
   Serial1.println();
   Serial1.println("#");//sensor ping kiri depan
@@ -78,19 +78,19 @@ void loop() {
   Serial1.println();
   Serial1.println("%");//sensor ping kiri belakang
   Serial1.print(sonar3.ping_cm());
-  //Serial.print(" cm");
-  //delay(10);
+  Serial.print(" cm");
+  delay(10);
   
   Serial1.println();
   Serial1.println("/");//sensor ping kiri
   Serial1.print(sonar4.ping_cm());
-  //Serial.print(" cm");
-  //delay(10);
+  Serial.print(" cm");
+  delay(10);
   
   Serial1.println();
   Serial1.println("@");//sensor ping kanan
   Serial1.print(sonar5.ping_cm()); 
-  //Serial.print(" cm");
+  Serial.print(" cm");
   //delay(10);
   
   Serial1.println();
