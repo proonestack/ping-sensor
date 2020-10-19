@@ -3,6 +3,7 @@ include <NewPing.h>
 include <SharpIR.h>
 
 // Define model and input pin:
+//inisialisasi pin analog untuk sensor
 float Infrader_depan = B3;
 float Infrader_kanan = A4;
 float Infrader_kiri = A7;
@@ -114,7 +115,7 @@ void loop() {
 
     //flame sensor
   Serial1.println("g");//sensor kiri
-  int sensorValue2 = analogRead(A4);
+  int sensorValue2 = analogRead(A4);//membaca nilai pada a4 untuk variabel sensorvalue2
   Serial1.println(sensorValue2);
   //  delay(70); 
 
