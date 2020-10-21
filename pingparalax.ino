@@ -97,7 +97,7 @@ void loop() {
   Serial1.println();
   Serial1.println("a");//sensor ping kanan depan
   Serial1.print(sonar7.ping_cm());
-  //Serial.print(" cm");
+  Serial.print(" cm");
   //delay(10);
   
   Serial1.println("c");
