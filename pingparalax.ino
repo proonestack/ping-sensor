@@ -9,9 +9,9 @@ float Infrader_kanan = A2;
 float Infrader_kiri = A0;
 define model 1080
 
-float ping_depan = 24;
+float ping_depan = 24; //definisi 
 float ping_kiri_Depan = 12;
-float ping_kiri_belakang = 29;
+float ping_kiri_belakang = 29; //definisi
 float ping_kiri = 13;
 float ping_kanan = 9;
 float ping_belakang = 46; 
@@ -42,7 +42,11 @@ NewPing sonar5(ping_kanan, ping_kanan, MAX_DISTANCE);
 NewPing sonar8(ping_kanan_depan, ping_kanan_depan, MAX_DISTANCE);
 
 //pin for communication with openCM///
+
+#define pin_bit4  20 //pin komunikasi
+
 define pin_bit4  20
+
 #define pin_bit3  21
 #define pin_bit2  24
 #define pin_bit1  5
