@@ -5,8 +5,8 @@ include <SharpIR.h>
 // Define model and input pin:
 //inisialisasi pin analog untuk sensor
 float Infrader_depan = B3;
-float Infrader_kanan = A4;
-float Infrader_kiri = A7;
+float Infrader_kanan = A2;
+float Infrader_kiri = A0;
 define model 1080
 
 float ping_depan = 24;
