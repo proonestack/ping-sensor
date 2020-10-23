@@ -58,9 +58,13 @@ SharpIR mySensor2 = SharpIR(Infrader_kiri, mode2);
 SharpIR mySensor0 = SharpIR(Infrader_TENGAH, model);
 SharpIR mySensor1 = SharpIR(Infrader_bawah, model);
 SharpIR mySensor2 = SharpIR(Infrader_kiri, model);
-              Dxl.setPosition(ID_4,460,1000);
-              Dxl.setPosition(ID_5,430,1000);
-              Dxl.setPosition(ID_6,532,1000);
+          Dxl.setPosition(ID_1,460,1000);
+          Dxl.setPosition(ID_2,430,1000);
+          Dxl.setPosition(ID_3,340,1000);
+          Dxl.setPosition(ID_4,460,1000);
+          Dxl.setPosition(ID_5,430,1000);
+          Dxl.setPosition(ID_6,532,1000);
+
 
 
 NewPing sonar1(ping_depan, ping_depan, MAX_DISTANCE); // NewPing setup of pins and maximum distance.
