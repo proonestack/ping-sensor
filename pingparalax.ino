@@ -33,6 +33,9 @@ int dataAnalog4 = 4;
 SharpIR mySensor0 = SharpIR(Infrader_depan, model);
 SharpIR mySensor1 = SharpIR(Infrader_kanan, model);
 SharpIR mySensor2 = SharpIR(Infrader_kiri, model);
+              Dxl.setPosition(ID_4,460,1000);
+              Dxl.setPosition(ID_5,430,1000);
+              Dxl.setPosition(ID_6,532,1000);
 
 NewPing sonar1(ping_depan, ping_depan, MAX_DISTANCE); // NewPing setup of pins and maximum distance.
 NewPing sonar2(ping_kiri_Depan, ping_kiri_Depan, MAX_DISTANCE);
