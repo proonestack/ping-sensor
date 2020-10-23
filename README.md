@@ -1,16 +1,14 @@
 # ping-sensor
-use sensor ping parallax
-edited by rexxzy
+use sensor ping parallax using captured
+rexxzy
 Julian
 unsubs
-fork by fxxpri
+fxxpri
 tumblxxx
 RARID
-
-
-
-
-
-
-
 xlvno
+by rizwxxwz
+imamxx
+thomasxxxrx
+setyaxx
+
