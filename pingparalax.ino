@@ -33,8 +33,15 @@ int distance2_cm;
           Dxl.setPosition(ID_17,480,1000);
           Dxl.setPosition(ID_18,532,1000);
 //line sensor
+int dataAnalog0 = 0;
+int dataAnalog1 = 1;
+              Dxl.setPosition(ID_10,460,1000);
+              Dxl.setPosition(ID_11,430,1000);
+              Dxl.setPosition(ID_12,645,1000);
+
 int dataAnalog0 = 1;
 int dataAnalog1 = 0;
+
 //flames sensor
 int dataAnalog2 = 2;
 int dataAnalog3 = 3;
