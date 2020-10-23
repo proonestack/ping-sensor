@@ -22,8 +22,8 @@ int distance0_cm;
 int distance1_cm;
 int distance2_cm;
 //line sensor
-int dataAnalog0 = 0;
-int dataAnalog1 = 1;
+int dataAnalog0 = 1;
+int dataAnalog1 = 0;
 //flames sensor
 int dataAnalog2 = 2;
 int dataAnalog3 = 3;
