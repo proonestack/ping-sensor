@@ -7,7 +7,7 @@ include <SharpIR.h>
 #float Infrader_depan = B3;
 #float Infrader_kanan = A2;
 float Infrader_kiri = A0;
-define model 1080
+define model 1090
 
 float ping_depan = 24; //definisi 
 float ping_kiri_Depan = 12;
