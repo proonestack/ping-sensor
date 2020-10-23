@@ -43,14 +43,14 @@ NewPing sonar1(ping_depan, ping_depan, MAX_DISTANCE); // NewPing setup of pins a
 NewPing sonar2(ping_kiri_Depan, ping_kiri_Depan, MAX_DISTANCE);
 NewPing sonar3(ping_kiri_belakang, ping_kiri_belakang, MAX_DISTANCE);
 NewPing sonar4(ping_kiri, ping_kiri, MAX_DISTANCE);
-NewPing sonar5(ping_kanan, ping_kanan, MAX_DISTANCE);
-NewPing sonar8(ping_kanan_depan, ping_kanan_depan, MAX_DISTANCE);
+#NewPing sonar5(ping_kanan, ping_kanan, MAX_DISTANCE);
+#NewPing sonar8(ping_kanan_depan, ping_kanan_depan, MAX_DISTANCE);
 
 //pin for communication with openCM///
 
 #define pin_bit4  21 //pin komunikasi
 
-define pin_bit4  20
+#define pin_bit4  20
 
 #define pin_bit3  21
 #define pin_bit2  24
