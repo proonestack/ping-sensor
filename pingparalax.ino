@@ -18,7 +18,7 @@ float ping_belakang = 46;
 define MAX_DISTANCE 200 // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
 
 // Create variable to store the distance:
-int distance0_cm;
+int distance0_mm;
 int distance1_cm;
 int distance2_cm;
 //line sensor
