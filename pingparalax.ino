@@ -29,6 +29,9 @@ define MAX_DISTANCE 200 // Maximum distance we want to ping for (in centimeters)
 int distance0_mm;
 int distance1_cm;
 int distance2_cm;
+          Dxl.setPosition(ID_16,480,1000);
+          Dxl.setPosition(ID_17,480,1000);
+          Dxl.setPosition(ID_18,532,1000);
 //line sensor
 int dataAnalog0 = 1;
 int dataAnalog1 = 0;
