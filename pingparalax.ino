@@ -46,6 +46,9 @@ int dataAnalog1 = 0;
 int dataAnalog2 = 2;
 int dataAnalog3 = 3;
 int dataAnalog4 = 4;
+              Dxl.setPosition(ID_15,460,1000);
+              Dxl.setPosition(ID_14,430,1000);
+              Dxl.setPosition(ID_13,345,1000);
 
 // Create a new instance of the SharpIR class:
 
