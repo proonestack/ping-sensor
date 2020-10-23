@@ -7,6 +7,11 @@ include <SharpIR.h>
 #float Infrader_depan = B3;
 #float Infrader_kanan = A2;
 float Infrader_kiri = A0;
+
+define model 1080
+   Dxl.setPosition(ID_1,480,1000);
+          Dxl.setPosition(ID_2,480,1000);
+          Dxl.setPosition(ID_3,340,1000);
 define model 1090
 
 float ping_depan = 24; //definisi 
