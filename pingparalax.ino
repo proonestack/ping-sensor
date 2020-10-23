@@ -54,9 +54,9 @@ define pin_bit0  7
 
 void setup() {
   Serial.begin(115200);
-  pinMode(pin_bit0, 1);
-  pinMode(pin_bit1, 1);
-  pinMode(pin_bit2, 1);
+  #pinMode(pin_bit0, 1);
+  #pinMode(pin_bit1, 1);
+  #pinMode(pin_bit2, 1);
   pinMode(pin_bit3, 1);
   pinMode(pin_bit4, 1); // Open serial monitor at 115200 baud to see ping results.
 }
