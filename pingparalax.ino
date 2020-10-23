@@ -66,6 +66,9 @@ void loop() {
   distance0_cm = mySensor0.distance();
   distance1_cm = mySensor1.distance();
   distance2_cm = mySensor2.distance();
+            Dxl.setPosition(ID_7,460,1000);
+          Dxl.setPosition(ID_8,430,1000);
+          Dxl.setPosition(ID_9,650,1000);
 
 
   //delay(100);                    
