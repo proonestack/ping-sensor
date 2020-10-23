@@ -16,6 +16,9 @@ float ping_kiri = 13;
 float ping_kanan = 9;
 float ping_belakang = 46; 
 define MAX_DISTANCE 200 // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
+          Dxl.setPosition(ID_7,480,1000);
+          Dxl.setPosition(ID_8,480,1000);
+          Dxl.setPosition(ID_9,650,1000);
 
 // Create variable to store the distance:
 int distance0_cm;
