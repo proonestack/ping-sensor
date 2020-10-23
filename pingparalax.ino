@@ -120,13 +120,13 @@ void setup() {
   Serial1.println("%");//sensor ping kiri belakang
   Serial1.print(sonar3.ping_cm());
   Serial.print(" cm");
-  delay(10);
+  delay(10); //delay 1ms
   
   Serial1.println();
   Serial1.println("/");//sensor ping kiri
   Serial1.print(sonar4.ping_cm());
   Serial.print(" cm");
-  delay(10);
+  delay(10); //delay 1ms
   
   Serial1.println();
   Serial1.println("@");//sensor ping kanan
@@ -145,7 +145,7 @@ void setup() {
 
   Serial1.println("d");
   Serial1.println(distance2_cm);
-  delay(1000);
+  delay(1000); //delay 200 ms
   
    //line sensor
   Serial1.println("f");
