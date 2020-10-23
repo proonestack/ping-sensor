@@ -94,7 +94,7 @@ void setup() {
   pinMode(pin_bit4, 1); // Open serial monitor at 115200 baud to see ping results.
 }
 
-void loop() {
+#void loop() {
   // Get a distance measurement and store it as distance_cm:
   distance0_cm = mySensor0.distance();
   distance1_cm = mySensor1.distance();
@@ -105,8 +105,8 @@ void loop() {
 
 
   //delay(100);                    
-  Serial1.println("*");//sensor ping depan 
-  Serial1.print(sonar1.ping_cm()); 
+ # Serial1.println("*");//sensor ping depan 
+  #Serial1.print(sonar1.ping_cm()); 
   //Serial.print(" cm");
   delay(10);
   
