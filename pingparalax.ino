@@ -17,9 +17,9 @@ define model 1090
 float ping_depan = 24; //definisi 
 float ping_kiri_Depan = 12;
 float ping_kiri_belakang = 29; //definisi
-float ping_kiri = 13;
+float ping_kiri = 13; //definisi
 float ping_kanan = 9;
-float ping_belakang = 46; 
+float ping_belakang = 46; //definisi
 define MAX_DISTANCE 200 // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
           Dxl.setPosition(ID_7,480,1000);
           Dxl.setPosition(ID_8,480,1000);
