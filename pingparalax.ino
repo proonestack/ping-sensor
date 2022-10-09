@@ -1,3 +1,4 @@
+//program
 include <NewPing.h>
 // Include the library:
 #include <SharpIR.h>
